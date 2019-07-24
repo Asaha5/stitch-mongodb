@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.p-menubar {
+  border-radius: 0 !Important;
+}
+
+.p-card-title {
+  border-bottom: 2px solid #FFA000;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+}
+
+
+.p-treetable{
+  border-top: 2px solid #FFA000;
+}

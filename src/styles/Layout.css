@@ -1,0 +1,21 @@
+.container {
+    background-color: #eee;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: [header-start] min-content [header-end box-start] 1fr [box-end main-start];
+    grid-template-columns: 1fr;
+    grid-template-areas: "head head head head" "main main main side";
+  }
+
+  .item {
+    font-family: sans-serif;
+  }
+  .item.header {
+    grid-area: head;
+  }
+  .item.main--content {
+    height: 100%;
+    grid-area: main;
+    justify-self: center;
+  }
